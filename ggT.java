@@ -1,26 +1,21 @@
 import java.util.Scanner;
-public class ggT {
+public class Messwerte {
 	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int ersteZahl = sc.nextInt();
-		int zweiteZahl = sc.nextInt();
 		
-		while (ersteZahl != zweiteZahl) {
-			if(ersteZahl > zweiteZahl) {
-				ersteZahl = ersteZahl - zweiteZahl;
-				
-			}
+		
+		
+		int Zahl1 = sc.nextInt();
+		int Zahl2 = sc.nextInt();
+		int Zahl3 = sc.nextInt();
+		int Zahl4 = sc.nextInt();
+		
+		
 			
-			else {
-				zweiteZahl = zweiteZahl - ersteZahl;
 		
-				}		
-		}
-	
-	
 	System.out.println(zweiteZahl);
 	sc.close();
 	
